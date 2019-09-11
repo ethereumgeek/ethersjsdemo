@@ -26,7 +26,7 @@ class Home extends Component {
       <div className="homePage">
         <div className="heading">This is a demo page for using EthersJS</div>
         <div className="content">Visit the <a className="link" href="https://atstake.net/faucet" target="_blank" rel="noopener noreferrer">Atstake Faucet</a> to get free coins on Rinkeby.</div>
-        <div className="content">Transfer 1 token back to the faucet by <span className="link" onClick={this.transferTokens}>clicking here</span>.</div>
+        <div className="content">Transfer 1 token on Rinkeby back to the faucet by <span className="link" onClick={this.transferTokens}>clicking here</span>.</div>
         <div className="content">Latest transaction status is: <span className="highlight">{this.props.home.transactionStatus}</span>.</div>
       </div>
     )
