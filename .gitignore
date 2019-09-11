@@ -1,0 +1,6 @@
+.DS_Store
+.firebase/
+build/
+build_truffle/
+build_webpack/
+node_modules/

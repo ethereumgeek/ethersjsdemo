@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ethersjs"
+  },
+  "targets": {
+    "ethersjs": {
+      "hosting": {
+        "prod": [
+          "ethersjs"
+        ]
+      }
+    }
+  }
+}

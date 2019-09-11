@@ -1,0 +1,25 @@
+
+.homePage {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.heading {
+  font-size: 20px;
+  color: #333;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.link, .link:active, .link:visited, .bluelink:hover {
+  font-size: 16px;
+  color: var(--link-color);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.highlight {
+  font-weight: bold;
+}

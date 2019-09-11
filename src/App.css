@@ -1,0 +1,17 @@
+/* Theme */
+:root {
+  --body-bg-color: #ddd;
+  --link-color: rgb(1, 195, 227);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-bg-color);
+  background-size: cover;
+  font-family: 'Arial', system-ui, sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+}

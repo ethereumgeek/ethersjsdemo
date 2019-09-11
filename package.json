@@ -1,0 +1,78 @@
+{
+  "name": "react_light_site",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "file-loader": "0.9.0",
+    "filesize": "3.3.0",
+    "fs-extra": "0.30.0",
+    "ganache-cli": "^6.1.6",
+    "gzip-size": "3.0.0",
+    "http-proxy-middleware": "^0.19.1",
+    "promise": "7.1.1",
+    "react-dev-utils": "^0.4.2",
+    "recursive-readdir": "2.1.0",
+    "strip-ansi": "3.0.1",
+    "style-loader": "0.13.1",
+    "truffle-contract": "^4.0.21",
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5",
+    "url-loader": "0.5.7"
+  },
+  "dependencies": {
+    "base-58": "0.0.1",
+    "drizzle": "^1.4.0",
+    "drizzle-react": "^1.2.0",
+    "drizzle-react-components": "^1.3.0",
+    "eth-block-tracker-es5": "^2.3.2",
+    "eth-ens-namehash": "^2.0.8",
+    "ethers": "^4.0.36",
+    "ethpm": "0.0.16",
+    "exif-js": "^2.3.0",
+    "immutability-helper": "^2.8.1",
+    "install": "^0.12.2",
+    "json": "^9.0.6",
+    "keccak": "^1.4.0",
+    "moment": "^2.22.2",
+    "moment-timezone": "^0.5.21",
+    "npm": "^6.10.0",
+    "openzeppelin-solidity": "^1.12.0",
+    "react": "^16.8.0",
+    "react-datepicker": "^1.6.0",
+    "react-dom": "^16.8.0",
+    "react-helmet": "^5.2.0",
+    "react-native": "^0.60.4",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.2.1",
+    "react-router-redux": "^4.0.7",
+    "react-scripts": "3.0.0",
+    "react-select": "^2.4.2",
+    "redux": "^3.7.2",
+    "redux-auth-wrapper": "^1.0.0",
+    "redux-saga": "^0.15.3",
+    "redux-thunk": "^2.2.0",
+    "safe-buffer": "^5.1.2",
+    "sha3": "^2.0.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
