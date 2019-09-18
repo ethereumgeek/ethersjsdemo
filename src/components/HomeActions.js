@@ -19,8 +19,8 @@ export async function initPromise() {
     }
   }
   
-  if (typeof window.ethersProvider === "undefined" && typeof window.web3 !== "undefined" && window.web3.currentProvider) {
-    window.ethersProvider = new ethers.providers.Web3Provider(window.web3.currentProvider);
+  if (typeof window.ethersProvider === "undefined" && typeof window.ethereum !== "undefined") {
+    window.ethersProvider = new ethers.providers.Web3Provider(window.ethereum);
     window.ethersFastSigner = new FastJsonRpcSigner(window.ethersProvider.getSigner());
   }
 }
