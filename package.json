@@ -34,7 +34,7 @@
     "keccak": "^1.4.0",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
-    "npm": "^6.10.0",
+    "npm": "^6.13.4",
     "openzeppelin-solidity": "^1.12.0",
     "react": "^16.8.0",
     "react-datepicker": "^1.6.0",
