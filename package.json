@@ -30,7 +30,7 @@
     "exif-js": "^2.3.0",
     "immutability-helper": "^2.8.1",
     "install": "^0.12.2",
-    "json": "^9.0.6",
+    "json": "^10.0.0",
     "keccak": "^1.4.0",
     "moment": "^2.22.2",
     "moment-timezone": "^0.5.21",
